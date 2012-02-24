@@ -1,0 +1,3 @@
+trsteel_ckeditor_upload: 
+    pattern: /ckeditor/upload
+    defaults: { _controller: TrsteelCkeditorBundle:Upload:index }

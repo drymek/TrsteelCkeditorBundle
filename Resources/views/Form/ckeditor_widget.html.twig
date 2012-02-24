@@ -18,8 +18,9 @@
                 uiColor: "{{ ui_colour }}",
             {% endif %}
             {% if startup_outline_blocks == true %}
-            startupOutlineBlocks: {{ startup_outline_blocks }}
+            startupOutlineBlocks: {{ startup_outline_blocks }},
             {% endif %}
+            filebrowserUploadUrl: '{{ path('trsteel_ckeditor_upload') }}'
         });
     //]]></script>
 {% endspaceless %}

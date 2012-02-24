@@ -37,6 +37,8 @@ class TrsteelCkeditorExtension extends Extension
         $container->setParameter('trsteel_ckeditor.ckeditor.ui_colour', $config['ui_colour']);
         $container->setParameter('trsteel_ckeditor.ckeditor.width', $config['width']);
         $container->setParameter('trsteel_ckeditor.ckeditor.height', $config['height']);
+        $container->setParameter('trsteel_ckeditor.path', $config['path']);
+
     }
 
     private function getDefaultGroups()

@@ -60,6 +60,14 @@ class Configuration implements ConfigurationInterface
                     ->defaultNull()
                 ->end()
             ->end()
+            ->children()
+                ->variableNode('path')
+                    ->defaultValue(array(
+                        'web' => 'media/images',
+                        'upload' => 'web/media/imges',
+                    ))
+                ->end()
+            ->end()
         ;
 
         return $treeBuilder;

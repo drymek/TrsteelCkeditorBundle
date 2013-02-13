@@ -1,13 +1,17 @@
 {
-    "name": "Trsteel/ckeditor-bundle",
+    "name": "drymek/ckeditor-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony2 bundle for easy integration of the CKEditor WYSIWYG",
+    "description": "Symfony2 bundle for easy integration of the CKEditor WYSIWYG (with file upload)",
     "keywords": ["CKEditor"],
     "license": "MIT",
     "authors": [
         {
             "name": "Trent Steel",
             "email": "trsteel88@gmail.com"
+        },
+        {
+            "name": "Marcin Dryka"
+            "email": "marcin@dryka.pl"
         }
     ],
     "require": {
